@@ -2,6 +2,8 @@ body {
     background-color: rgb(129, 129, 129);
 }
 
+/*------------------------Header----------------------------*/
+
 h1 {
     color: white;
     text-transform: uppercase;
@@ -27,3 +29,32 @@ h1 {
     padding: 40px;
     margin: 0;
 }
+
+/*----------------------------Navigation Bar-----------------------------*/
+
+.navbar {
+    background-color: rgb(151, 0, 0) !important;
+    text-align: center;
+    padding: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 30px;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.nav-link {
+    color: black; 
+    font-family: Arial;
+}
+
+.nav-link:hover {
+    background-color: rgb(100, 0, 0);
+    color: white;
+}
+
