@@ -95,13 +95,38 @@ p {
     font-size: 20px;
     text-indent: 1cm;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Newsreader', serif;
 }
 
 #img_1 {
     border: 3px solid rgb(151, 0, 0);
     border-radius: 20px;
     margin: 30px 0px;
+}
+
+#img_2 {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+
+.forras {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: rgb(151, 0, 0);
+    font-size: 24px;
+    font-family: Arial;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+.forras:hover {
+    background-color:rgb(100, 0, 0);
+    color: white;
+    box-shadow: 0 0 10px black;
 }
 
 /*-----------------------Cards---------------------*/
