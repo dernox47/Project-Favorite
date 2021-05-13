@@ -78,6 +78,7 @@ footer {
     text-align: center;
     padding: 6px;
     color: black;
+    margin-top: 30px;
 }
 
 /*--------------------Content-----------------------*/
@@ -105,3 +106,24 @@ p {
 
 /*-----------------------Cards---------------------*/
 
+.card {
+    height: 100%;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+li {
+    list-style: "⮡  ";
+}
+
+.card:hover {
+    background-color:rgb(151, 0, 0);
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
