@@ -120,10 +120,36 @@ p {
 
 li {
     list-style: "⮡  ";
+    font-weight: bold;
+    font-style: italic;
 }
 
 .card:hover {
     background-color:rgb(151, 0, 0);
     color: white;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 0 0 15px black;
+}
+
+/*-------------------Table-------------------------*/
+
+.table {
+    border: 2px solid black;
+    width: 70%;
+    height: 600px;
+    background-color: rgb(119, 119, 119);
+    color: black;
+}
+
+thead {
+    background-color: rgb(102, 102, 102);
+}
+
+.tr {
+    height: 30px;
+}
+
+.tr:hover {
+    background-color: rgb(151, 0, 0);
+    color: white;
+    text-shadow: 0 0 5px black; 
 }
