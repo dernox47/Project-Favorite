@@ -73,9 +73,14 @@ h1 {
     color: white;
 }
 
+.nav-link:visited {
+    color: black;
+}
+
 .navbar-toggler:hover {
     background-color: rgb(100, 0, 0);
 }
+
 
 /*--------------------Footer------------------------*/
 
