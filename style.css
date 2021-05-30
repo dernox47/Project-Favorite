@@ -163,7 +163,7 @@ li {
     list-style: ' \21B3';
     font-weight: bold;
     font-style: italic;
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
 
 .card:hover {
