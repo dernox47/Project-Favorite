@@ -160,9 +160,10 @@ p {
 }
 
 li {
-    list-style: "⮡  ";
+    list-style: ' \21B3';
     font-weight: bold;
     font-style: italic;
+    padding-left: 1em;
 }
 
 .card:hover {
